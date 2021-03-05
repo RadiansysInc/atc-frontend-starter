@@ -1,21 +1,20 @@
-import FormComponent from "../organisms/form";
-import { Container } from 'reactstrap';
-import logo from '../../logo.svg';
-
+import { Container } from "reactstrap";
+import Callout from "../organisms/Callout";
 
 const Home = (props) => {
-    return (
-        <Container className="mt-5">
-            <div className="App">
-                <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h2>{'Welcome to React'}</h2>
-                    <FormComponent />
-                </div>
+  return (
+    <Container className="h-100">
+      <div className="App row h-100">
+        <div class="col-sm-12 align-self-center ml-5 pl-5">
+          <div class="d-flex pt-5 mt-5 justify-content-end">
+            <div class="cs-width text-white">
+              <Callout />
             </div>
-        </Container>
-    );
-}
+          </div>
+        </div>
+      </div>
+    </Container>
+  );
+};
 
-
-export default (Home);
+export default Home;
