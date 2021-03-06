@@ -5,7 +5,7 @@ import SnowIcon from "../../assets/images/snow-icon.svg";
 import TreeIcon from "../../assets/images/tree-icon.svg";
 export default function Activity() {
   return (
-    <div class="tag d-flex mt-2">
+    <div class="tag d-flex mt-2  sm:md-0 md-3">
       <span class="mr-2 mt-1">
         <img src={ShipIcon} alt="ship" class="mt-2"></img>
       </span>

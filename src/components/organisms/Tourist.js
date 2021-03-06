@@ -15,7 +15,7 @@ export default function Tourist() {
           <TouristHeading />
           <TouristContent />
           <div class="d-flex justify-content-between pb-1">
-            <div class="d-flex">
+            <div class="sm:d-flex">
               <Activity />
               <Review />
             </div>

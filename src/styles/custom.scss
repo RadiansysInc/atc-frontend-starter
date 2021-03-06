@@ -1,57 +1,68 @@
-.home-bg{
-   background: url(../assets/images/building-bg.jpg) left top/cover no-repeat #424242;
-   height: 100vh;
+.home-bg {
+  background: url(../assets/images/building-bg.jpg) left top/cover no-repeat
+    #424242;
+  height: 100vh;
 }
-.btn.btn-secondary{
-   background: #FFD912;
-   font-family: 'Rubik', sans-serif;
-   font-weight: 500;
-   font-size: 1.5rem;
-   border-radius: 0;
-   padding: 10px 32px;
-   color: #000;
-   box-shadow: -1px 1px 9px 2px rgba(0,0,0,0.63);
--webkit-box-shadow: -1px 1px 9px 2px rgba(0,0,0,0.63);
--moz-box-shadow: -1px 1px 9px 2px rgba(0,0,0,0.63);
+.btn.btn-secondary {
+  background: #ffd912;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 0;
+  padding: 10px 32px;
+  color: #000;
+  box-shadow: -1px 1px 9px 2px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -1px 1px 9px 2px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -1px 1px 9px 2px rgba(0, 0, 0, 0.63);
 }
-.btn.btn-secondary:hover{
-   background: #FFD912;
-   color: #000;
+.btn.btn-secondary:hover {
+  background: #ffd912;
+  color: #000;
 }
-.cs-width{
-   width: 504px;
+.cs-width {
+  width: 504px;
 }
-.text-sm{
-   font-size: 0.9rem;
+.text-sm {
+  font-size: 0.9rem;
 }
-.text-md{
-   font-size: 1rem;
+.text-md {
+  font-size: 1rem;
 }
-.text-xl{
-   font-size: 1.5rem;
+.text-xl {
+  font-size: 1.5rem;
 }
-.text-base{
-   font-size:1.1rem;
+.text-base {
+  font-size: 1.1rem;
 }
-.text-lg{
-   font-size: 1.21rem;
-   text-align: justify;
+.text-lg {
+  font-size: 1.21rem;
+  text-align: justify;
 }
-.text-title{
-   letter-spacing: 4px;
+.text-title {
+  letter-spacing: 4px;
 }
-.card-section p.card-text{
-   line-height: 34px;
+.card-section p.card-text {
+  line-height: 34px;
 }
 
-.tag{
-   width: 175px;
+.tag {
+  width: 175px;
 }
-.tag span{
-   width: 35px;
-   height: 35px;
-   border-radius: 50%;
-   text-align: center;
-   display: inline-block;
-   background: rgba(0, 0, 0, 0.5);
+.tag span {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 992px) {
+  .cs-width {
+    width: 100%;
+  }
+  .card-title.display-4 {
+    font-size: 2rem;
+    margin-top: 16px;
+  }
 }
