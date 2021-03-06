@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardText, CardBody, CardTitle } from "reactstrap";
+import { Card, CardBody } from "reactstrap";
 import Button from "./Button";
 import Activity from "./Activity";
 import Review from "./Review";
